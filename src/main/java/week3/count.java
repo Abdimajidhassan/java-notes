@@ -13,6 +13,6 @@ public class count {
     public static void count(int min, int max) {
         for(int i = min; i <= max; i++) {
             System.out.println(i);
-        }
+        }//
     }
 }
