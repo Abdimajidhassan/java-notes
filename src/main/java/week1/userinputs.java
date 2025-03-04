@@ -5,8 +5,8 @@ import static input.InputUtils.*;
 public class userinputs {
     public static void main(String[] args) {
 
-        String userName = stringInput("please enter your name: ");
-        System.out.println("welcome " + userName);
+        String userName = stringInput("please enter your name: ");//need user input
+        System.out.println("welcome " + userName);//connect with welcome
 
         int howManyClasses = positiveIntInput("how many classes are you taking?");
 
